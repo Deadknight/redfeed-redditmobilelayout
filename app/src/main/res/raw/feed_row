@@ -1,0 +1,22 @@
+{
+    "packageName":"org.sombrenuit.dk.customlayouttest",
+    "nameResourceString":"app_name",
+    "layoutType":"5",
+    "layoutColumns":"2",
+    "layoutXml":"row_reddit_mobile",
+    "imageButUpvoteId":"butUpvote",
+    "tvScoreId":"tvScore",
+    "imageButDownvoteId":"butDownvote",
+    "ivImageId":"ivImage",
+    "tvTitleId":"tvTitle",
+    "tvDetailId":"",
+    "butCommentCountId":"butCommentCount",
+    "butShareId":"butShare",
+    "butSaveId":"butSave",
+    "butHideId":"butHide",
+    "imageButMoreId":"butMore",
+    "tvUrlId":"tvUrl",
+    "tvDateId":"tvDate",
+    "tvAuthorId":"tvAuthor",
+    "tvSubredditId":"tvSubreddit"
+}
