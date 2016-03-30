@@ -15,7 +15,8 @@
             <TextView
                 android:id="@+id/tvSubreddit"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:text="asdasd"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -23,7 +24,8 @@
             <TextView
                 android:id="@+id/tvUrl"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:text="asdasd"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -31,7 +33,8 @@
             <TextView
                 android:id="@+id/tvDate"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:text="asdasd"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -39,7 +42,8 @@
             <TextView
                 android:id="@+id/tvAuthor"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:text="asdasd"/>
         </LinearLayout>
         <TextView
             android:id="@+id/tvTitle"
@@ -48,7 +52,8 @@
         <ImageView
             android:id="@+id/ivImage"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"/>
         <LinearLayout
             android:id="@+id/llButtons"
             android:layout_width="match_parent"

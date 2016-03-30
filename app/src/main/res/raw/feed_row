@@ -1,7 +1,6 @@
 {
-    "packageName":"org.sombrenuit.dk.customlayouttest",
     "nameResourceString":"app_name",
-    "layoutType":"5",
+    "layoutType":"6",
     "layoutColumns":"2",
     "layoutXml":"row_reddit_mobile",
     "imageButUpvoteId":"butUpvote",
@@ -18,5 +17,12 @@
     "tvUrlId":"tvUrl",
     "tvDateId":"tvDate",
     "tvAuthorId":"tvAuthor",
-    "tvSubredditId":"tvSubreddit"
+    "tvSubredditId":"tvSubreddit",
+    "upvoteDrawableId":"",
+    "upvoteSelectedDrawableId":"",
+    "downvoteDrawableId":"",
+    "downvoteSelectableDrawableId":"",
+    "upvoteColorId":"",
+    "downvoteColorId":"",
+    "clickId":""
 }
