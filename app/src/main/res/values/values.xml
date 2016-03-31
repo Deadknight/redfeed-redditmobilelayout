@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="theme_extra_flags">
+        <flag name="TAG_SET_DEFAULT_TEXT_COLOR" value="1"/>
+        <flag name="TAG_DO_NOT_SET_STYLE_TEXT_COLOR" value="2"/>
+    </attr>
+</resources>

@@ -24,5 +24,6 @@
     "downvoteSelectableDrawableId":"",
     "upvoteColorId":"",
     "downvoteColorId":"",
+    "scorelessColorId":"",
     "clickId":""
 }
