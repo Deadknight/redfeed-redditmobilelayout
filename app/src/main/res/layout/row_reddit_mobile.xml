@@ -88,31 +88,36 @@
                 android:id="@+id/butCommentCount"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
                 android:textAllCaps="false"
                 style="?android:buttonBarButtonStyle"/>
             <Button
                 android:id="@+id/butShare"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
                 android:textAllCaps="false"
                 style="?android:buttonBarButtonStyle"/>
             <Button
                 android:id="@+id/butSave"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
                 android:textAllCaps="false"
                 style="?android:buttonBarButtonStyle"/>
             <Button
                 android:id="@+id/butHide"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
                 android:textAllCaps="false"
                 style="?android:buttonBarButtonStyle"/>
             <ImageButton
                 android:id="@+id/butMore"
-                android:layout_width="wrap_content"
+                android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center_vertical"
+                android:scaleType="fitXY"
                 android:background="?android:selectableItemBackground"/>
             <View
                 android:layout_width="0dp"
@@ -121,19 +126,22 @@
             <TextView
                 android:id="@+id/tvScore"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
             <ImageButton
                 android:id="@+id/butUpvote"
-                android:layout_width="wrap_content"
+                android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center_vertical"
+                android:scaleType="fitXY"
                 android:src="@drawable/ic_upvote_disabled"
                 android:background="?android:selectableItemBackground"/>
             <ImageButton
                 android:id="@+id/butDownvote"
-                android:layout_width="wrap_content"
+                android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_gravity="center_vertical"
+                android:scaleType="fitXY"
                 android:src="@drawable/ic_downvote_disabled"
                 android:background="?android:selectableItemBackground"/>
         </LinearLayout>
