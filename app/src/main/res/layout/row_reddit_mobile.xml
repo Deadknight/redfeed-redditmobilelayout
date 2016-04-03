@@ -74,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="4dp"
             android:layout_marginBottom="4dp"/>
-        <ImageView
+        <org.sombrenuit.dk.layoutredditmobile.ResizableImageView
             android:id="@+id/ivImage"
             android:layout_width="match_parent"
             android:layout_height="100dp"
@@ -146,5 +146,8 @@
                 android:background="?android:selectableItemBackground"/>
         </LinearLayout>
     </LinearLayout>
-
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#EFEFED"/>
 </LinearLayout>
