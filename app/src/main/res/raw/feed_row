@@ -18,12 +18,19 @@
     "tvDateId":"tvDate",
     "tvAuthorId":"tvAuthor",
     "tvSubredditId":"tvSubreddit",
+    "clickId":"",
+    "useDefaultImageOnLoad":"1",
     "upvoteDrawableId":"",
     "upvoteSelectedDrawableId":"",
     "downvoteDrawableId":"",
-    "downvoteSelectableDrawableId":"",
+    "downvoteSelectedDrawableId":"",
     "upvoteColorId":"",
     "downvoteColorId":"",
     "scorelessColorId":"",
-    "clickId":""
+    "defaultImageDrawableId":"",
+    "defaultImageDarkDrawableId":"",
+    "selfImageDrawableId":"",
+    "selfImageDarkDrawableId":"",
+    "nsfwImageDrawableId":"",
+    "nsfwImageDarkDrawableId":""
 }

@@ -9,6 +9,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginEnd="4dp"
         android:orientation="vertical">
         <LinearLayout
             android:layout_width="match_parent"
@@ -80,70 +84,100 @@
             android:layout_height="100dp"
             android:scaleType="centerCrop"/>
         <LinearLayout
-            android:id="@+id/llButtons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center_vertical"
             android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/llButtons"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
             <Button
                 android:id="@+id/butCommentCount"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:textAllCaps="false"
+                android:textSize="12sp"
+                android:textColor="#ff9e9e9e"
                 style="?android:buttonBarButtonStyle"/>
             <Button
                 android:id="@+id/butShare"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:textAllCaps="false"
+                android:textSize="12sp"
+                android:textColor="#ff9e9e9e"
                 style="?android:buttonBarButtonStyle"/>
             <Button
                 android:id="@+id/butSave"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:textAllCaps="false"
+                android:textSize="12sp"
+                android:textColor="#ff9e9e9e"
                 style="?android:buttonBarButtonStyle"/>
             <Button
                 android:id="@+id/butHide"
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
                 android:textAllCaps="false"
+                android:textSize="12sp"
+                android:textColor="#ff9e9e9e"
                 style="?android:buttonBarButtonStyle"/>
-            <ImageButton
-                android:id="@+id/butMore"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center_vertical"
-                android:scaleType="fitXY"
-                android:background="?android:selectableItemBackground"/>
-            <View
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"/>
-            <TextView
-                android:id="@+id/tvScore"
+            </LinearLayout>
+            <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_vertical"/>
-            <ImageButton
-                android:id="@+id/butUpvote"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center_vertical"
-                android:scaleType="fitXY"
-                android:src="@drawable/ic_upvote_disabled"
-                android:background="?android:selectableItemBackground"/>
-            <ImageButton
-                android:id="@+id/butDownvote"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center_vertical"
-                android:scaleType="fitXY"
-                android:src="@drawable/ic_downvote_disabled"
-                android:background="?android:selectableItemBackground"/>
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:id="@+id/butMore"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="fitXY"
+                    android:background="?android:selectableItemBackground"/>
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="18dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_gravity="center_vertical"
+                    android:background="#ff9e9e9e"/>
+                <TextView
+                    android:id="@+id/tvScore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginEnd="2dp"
+                    android:textSize="12sp"
+                    android:layout_gravity="center_vertical"/>
+                <ImageButton
+                    android:id="@+id/butUpvote"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_upvote_disabled"
+                    android:background="?android:selectableItemBackground"/>
+                <ImageButton
+                    android:id="@+id/butDownvote"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_downvote_disabled"
+                    android:background="?android:selectableItemBackground"/>
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
     <View
