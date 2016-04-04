@@ -20,6 +20,8 @@
     "tvSubredditId":"tvSubreddit",
     "clickId":"",
     "useDefaultImageOnLoad":"1",
+    "showCommentsText":"1",
+    "showCommentCountText":"1",
     "upvoteDrawableId":"",
     "upvoteSelectedDrawableId":"",
     "downvoteDrawableId":"",
