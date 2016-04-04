@@ -8,6 +8,16 @@ https://play.google.com/store/apps/details?id=org.sombrenuit.dk.redfeed.free
 How to
 ------
 
+You need to set intent for any activity
+
+```xml
+<intent-filter>
+    <action android:name="org.sombrenuit.dk.redfeed.THEME_FEED_ROW"/>
+</intent-filter>
+```
+
+After that all needed data is in "raw/feed_row"
+
 | name | description  |
 |:---:|:---:|
 | nameResourceString | Resource string of app name that shown on plugin selector | 
